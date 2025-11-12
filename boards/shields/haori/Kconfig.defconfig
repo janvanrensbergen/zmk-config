@@ -1,0 +1,6 @@
+if SHIELD_HAORI
+
+config ZMK_KEYBOARD_NAME
+    default "Haori"
+
+endif
