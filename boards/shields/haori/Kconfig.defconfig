@@ -1,6 +1,6 @@
 if SHIELD_HAORI
 
 config ZMK_KEYBOARD_NAME
-    default "haori"
+    default "handwired haori"
 
 endif
