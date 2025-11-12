@@ -1,2 +1,2 @@
-config SHIELD_HOARI
-    def_bool $(shields_list_contains,hoari)
+config SHIELD_HAORI
+    def_bool $(shields_list_contains,haori)
