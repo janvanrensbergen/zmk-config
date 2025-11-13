@@ -2,7 +2,7 @@
 #include <dt-bindings/zmk/keys.h>
 
 #include "includes/settings.dtsi"
-#include "includes/behaviors_homerow_mods.dtsi"
+#include "includes/behaviours_homerow_mods.dtsi"
 #include "includes/custom_keycodes.dtsi"
 
 #define BASE    0
