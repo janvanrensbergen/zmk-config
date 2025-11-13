@@ -1,6 +1,8 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 
+#include "includes/settings.dtsi"
+#include "includes/behaviors_homerow_mods.dtsi"
 #include "includes/custom_keycodes.dtsi"
 
 #define BASE    0
@@ -21,10 +23,10 @@
         default_layer {
             display-name = "Default";
             bindings = <
-                &kp Q        &kp W        &kp F        &kp P        &kp G           &kp J        &kp L        &kp U        &kp Y        &kp QUOT
-                &kp A        &kp R        &kp S        &kp T        &kp D           &kp H        &kp N        &kp E        &kp I        &kp O
-                &kp Z        &kp X        &kp C        &kp V        &kp B           &kp K        &kp M        &kp COMMA    &kp DOT      &kp SLASH
-                                        &lt MEDIA ESC  &lt NAV TAB  &lt MOUSE SPACE  &lt SYM ENTER  &lt NUM BSPC   &lt FUN DEL
+                &kp Q               &kp W               &kp F               &kp P                   &kp G               &kp J               &kp L                   &kp U             &kp Y               &kp QUOT
+                &hm_l LCTRL A       &hm_l LALT R        &hm_l LGUI S        &hm_shift_l LSHFT T     &kp D               &kp H               &hm_shift_r RSHFT N     &hm_r RGUI E      &hm_r RALT I        &hm_r RCTRL O        &kp O
+                &kp Z               &kp X               &kp C               &kp V                   &kp B               &kp K               &kp M                   &kp COMMA         &kp DOT             &kp SLASH
+                                                        &lt MEDIA ESC       &lt NAV TAB             &lt MOUSE SPACE     &lt SYM ENTER       &lt NUM BSPC            &lt FUN DEL
             >;
         };
         
