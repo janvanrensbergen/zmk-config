@@ -1,0 +1,27 @@
+// Navigation
+#define U_LEFT_W LA(LEFT)
+#define U_LEFT_L LG(LEFT)
+#define U_RIGHT_W LA(RIGHT)
+#define U_RIGHT_L LG(RIGHT)
+
+// HYPER and MEH
+#define U_HYPER LS(LC(LG(LALT)))
+#define U_MEH LC(LG(LALT))
+
+// Shortcuts
+#define U_UNDO LG(Z)
+#define U_REDO LS(LG(Z))
+#define U_CUT LG(X)
+#define U_COPY LG(C)
+#define U_PASTE LG(V)
+#define U_BACK LG(LBKT)
+#define U_FWD LG(RBKT)
+#define U_TAB_PREV LS(LC(TAB))
+#define U_TAB_NEXT LC(TAB)
+#define U_SPACE_PREV LC(LEFT)
+#define U_SPACE_NEXT LC(RIGHT)
+
+// macOS Mission Control
+#define U_MC_ALL LC(UP)
+#define U_MC_APP LC(DOWN)
+#define U_MC_DESK F11
