@@ -43,17 +43,17 @@
         num_layer {
             display-name = "Numbers";
             bindings = <
-                &bootloader  &trans        &trans         &trans         &trans                   &trans       &trans         &trans        &trans         &trans      
-                &trans       &trans        &trans         &trans         &trans                   &trans       &trans         &trans        &trans         &trans             
-                &trans       &trans        &trans         &trans         &trans                   &trans       &trans         &trans        &trans         &trans    
-                                           &trans         &trans         &trans                   &trans       &trans         &trans                       
+                &kp LBRC     &kp 7         &kt 8          &kt 9          &kp RBRC                 &trans       &trans         &trans        &trans         &trans      
+                &kp SEMI     &kp 4         &kt 5          &kt 6          &kp EQUAL                &trans       &trans         &trans        &trans         &trans             
+                &kp GRAVE    &kp 1         &kt 2          &kt 2          &kp BSLH                 &trans       &trans         &trans        &trans         &trans    
+                                           &kt KP_DOT     &kt 0          &kp MINUS                &trans       &trans         &trans                       
             >;
         };
         
         sym_layer {
             display-name = "Symbols";
             bindings = <
-                &bootloader  &trans        &trans         &trans         &trans                   &trans       &trans         &trans        &trans         &trans      
+                &bootloader  &kp AMPS      &kt ASTRK         &trans         &trans                   &trans       &trans         &trans        &trans         &trans      
                 &trans       &trans        &trans         &trans         &trans                   &trans       &trans         &trans        &trans         &trans             
                 &trans       &trans        &trans         &trans         &trans                   &trans       &trans         &trans        &trans         &trans    
                                            &trans         &trans         &trans                   &trans       &trans         &trans                       
