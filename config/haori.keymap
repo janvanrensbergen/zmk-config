@@ -53,10 +53,10 @@
         sym_layer {
             display-name = "Symbols";
             bindings = <
-                &bootloader  &kp AMPS      &kt ASTRK         &trans         &trans                   &trans       &trans         &trans        &trans         &trans      
-                &trans       &trans        &trans         &trans         &trans                   &trans       &trans         &trans        &trans         &trans             
-                &trans       &trans        &trans         &trans         &trans                   &trans       &trans         &trans        &trans         &trans    
-                                           &trans         &trans         &trans                   &trans       &trans         &trans                       
+                &kp LBRC     &kp AMPS      &kt ASTRK      &trans         &kp RBRC                 &trans       &trans         &trans        &trans         &trans      
+                &kp COLON    &kp DOLLAR    &kp PERCENT    &kp CARET      &kp PLUS                 &trans       &trans         &trans        &trans         &trans             
+                &kp TILDE    &kp EXCL      &kp AT         &kp HASH       &kp PIPE                 &trans       &trans         &trans        &trans         &trans    
+                                           &kp KP_LPAR    &kp KP_RPAR    &kp UNDER                &trans       &trans         &trans                       
             >;
         };
         
