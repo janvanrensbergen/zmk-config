@@ -24,7 +24,7 @@
             display-name = "Default";
             bindings = <
                 &kp Q               &kp W               &kp F               &kp P                   &kp G               &kp J               &kp L                   &kp U             &kp Y               &kp QUOT
-                &hml LCTRL A        &hml LALT R         &hml LGUI S         &hml LSHFT T            &kp D               &kp H               &hmr RSHFT N            &hmr RGUI E       &hmr RALT I         &hmr RCTRL O        &kp O
+                &hml LCTRL A        &hml LALT R         &hml LGUI S         &hml LSHFT T            &kp D               &kp H               &hmr RSHFT N            &hmr RGUI E       &hmr RALT I         &hmr RCTRL O
                 &kp Z               &kp X               &kp C               &kp V                   &kp B               &kp K               &kp M                   &kp COMMA         &kp DOT             &kp SLASH
                                                         &lt MEDIA ESC       &lt NAV TAB             &lt MOUSE SPACE     &lt SYM ENTER       &lt NUM BSPC            &lt FUN DEL
             >;
@@ -41,3 +41,5 @@
         };
     };
 };
+
+
