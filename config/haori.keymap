@@ -23,22 +23,83 @@
         default_layer {
             display-name = "Default";
             bindings = <
-                &kp Q               &kp W               &kp F               &kp P                   &kp G               &kp J               &kp L                   &kp U             &kp Y               &kp QUOT
-                &hml LCTRL A        &hml LALT R         &hml LGUI S         &hml LSHFT T            &kp D               &kp H               &hmr RSHFT N            &hmr RGUI E       &hmr RALT I         &hmr RCTRL O
-                &kp Z               &kp X               &kp C               &kp V                   &kp B               &kp K               &kp M                   &kp COMMA         &kp DOT             &kp SLASH
-                                                        &lt MEDIA ESC       &lt NAV TAB             &lt MOUSE SPACE     &lt SYM ENTER       &lt NUM BSPC            &lt FUN DEL
+                &kp Q               &kp W               &kp F               &kp P                   &kp G            |   &kp J               &kp L                   &kp U             &kp Y               &kp QUOT
+                &hml LCTRL A        &hml LALT R         &hml LGUI S         &hml LSHFT T            &kp D            |   &kp H               &hmr RSHFT N            &hmr RGUI E       &hmr RALT I         &hmr RCTRL O
+                &kp Z               &kp X               &kp C               &kp V                   &kp B            |   &kp K               &kp M                   &kp COMMA         &kp DOT             &kp SLASH
+                                                        &lt MEDIA ESC       &lt NAV TAB             &lt MOUSE SPACE  |   &lt SYM ENTER       &lt NUM BSPC            &lt FUN DEL
             >;
         };
         
         nav_layer {
             display-name = "Navigation";
             bindings = <
-                &bootloader  &kp W        &kp F        &kp P        &kp G           &kp U_REDO   &kp U_PASTE  &kp U_COPY       &kp U_CUT        &kp U_UNDO     
-                &kp A        &kp R        &kp S        &kp T        &kp D           &kp H        &kp N        &kp E        &kp I        &kp O   
-                &kp Z        &kp X        &kp C        &kp V        &kp B           &kp K        &kp M        &kp A        &kp B        &kp E   
-                             &kp N1       &kp N2       &kp N3       &kp N4          &kp N5       &kp N6   
+                &bootloader  &trans        &trans         &trans         &trans      |      &kp U_REDO   &kp U_PASTE    &kp U_COPY    &kp U_CUT      &kp U_UNDO      
+                &trans       &trans        &trans         &trans         &trans      |      &kp CAPS     &kp LEFT       &kp DOWN      &kp UP         &kp RIGHT         
+                &trans       &trans        &trans         &trans         &trans      |      &kp INS      &kp HOME       &kp PG_DN     &kp PG_UP      &kp END    
+                                           &trans         &trans         &trans      |      &trans       &trans         &trans                       
             >;
         };
+        
+        num_layer {
+            display-name = "Numbers";
+            bindings = <
+                &bootloader  &trans        &trans         &trans         &trans      |      &trans       &trans         &trans        &trans         &trans      
+                &trans       &trans        &trans         &trans         &trans      |      &trans       &trans         &trans        &trans         &trans             
+                &trans       &trans        &trans         &trans         &trans      |      &trans       &trans         &trans        &trans         &trans    
+                                           &trans         &trans         &trans      |      &trans       &trans         &trans                       
+            >;
+        };
+        
+        sym_layer {
+            display-name = "Symbols";
+            bindings = <
+                &bootloader  &trans        &trans         &trans         &trans      |      &trans       &trans         &trans        &trans         &trans      
+                &trans       &trans        &trans         &trans         &trans      |      &trans       &trans         &trans        &trans         &trans             
+                &trans       &trans        &trans         &trans         &trans      |      &trans       &trans         &trans        &trans         &trans    
+                                           &trans         &trans         &trans      |      &trans       &trans         &trans                       
+            >;
+        };
+        
+        fun_layer {
+            display-name = "Function";
+            bindings = <
+                &bootloader  &trans        &trans         &trans         &trans      |      &trans       &trans         &trans        &trans         &trans      
+                &trans       &trans        &trans         &trans         &trans      |      &trans       &trans         &trans        &trans         &trans             
+                &trans       &trans        &trans         &trans         &trans      |      &trans       &trans         &trans        &trans         &trans    
+                                           &trans         &trans         &trans      |      &trans       &trans         &trans                       
+            >;
+        };
+        
+        mbo_layer {
+            display-name = "Mouse buttons";
+            bindings = <
+                &bootloader  &trans        &trans         &trans         &trans      |      &trans       &trans         &trans        &trans         &trans      
+                &trans       &trans        &trans         &trans         &trans      |      &trans       &trans         &trans        &trans         &trans             
+                &trans       &trans        &trans         &trans         &trans      |      &trans       &trans         &trans        &trans         &trans    
+                                           &trans         &trans         &trans      |      &trans       &trans         &trans                       
+            >;
+        };
+        
+        media_layer {
+            display-name = "Media";
+            bindings = <
+                &bootloader  &trans        &trans         &trans         &trans      |      &trans       &trans         &trans        &trans         &trans      
+                &trans       &trans        &trans         &trans         &trans      |      &trans       &trans         &trans        &trans         &trans             
+                &trans       &trans        &trans         &trans         &trans      |      &trans       &trans         &trans        &trans         &trans    
+                                           &trans         &trans         &trans      |      &trans       &trans         &trans                       
+            >;
+        };
+        
+        mouse_layer {
+            display-name = "Mouse";
+            bindings = <
+                &bootloader  &trans        &trans         &trans         &trans      |      &trans       &trans         &trans        &trans         &trans      
+                &trans       &trans        &trans         &trans         &trans      |      &trans       &trans         &trans        &trans         &trans             
+                &trans       &trans        &trans         &trans         &trans      |      &trans       &trans         &trans        &trans         &trans    
+                                           &trans         &trans         &trans      |      &trans       &trans         &trans                       
+            >;
+        };
+        
     };
 };
 
