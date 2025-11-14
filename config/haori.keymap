@@ -10,9 +10,8 @@
 #define NUM     2
 #define SYM     3
 #define FUN     4
-#define MBO     5
-#define MEDIA   6
-#define MOUSE   7
+#define MEDIA   5
+#define MOUSE   6
 
 
 / {
@@ -70,23 +69,13 @@
             >;
         };
         
-        mbo_layer {
-            display-name = "Mouse buttons";
-            bindings = <
-                &bootloader  &trans        &trans         &trans         &trans                   &trans       &trans         &trans        &trans         &trans      
-                &trans       &trans        &trans         &trans         &trans                   &trans       &trans         &trans        &trans         &trans             
-                &trans       &trans        &trans         &trans         &trans                   &trans       &trans         &trans        &trans         &trans    
-                                           &trans         &trans         &trans                   &trans       &trans         &trans                       
-            >;
-        };
-        
         media_layer {
             display-name = "Media";
             bindings = <
                 &bootloader  &trans        &trans         &trans         &trans                   &trans       &trans         &trans        &trans         &trans      
-                &trans       &trans        &trans         &trans         &trans                   &trans       &trans         &trans        &trans         &trans             
+                &trans       &trans        &trans         &trans         &trans                   &trans       &kp C_PREV     &kp C_VOL_DN  &kp C_VOL_UP   &kp C_NEXT             
                 &trans       &trans        &trans         &trans         &trans                   &trans       &trans         &trans        &trans         &trans    
-                                           &trans         &trans         &trans                   &trans       &trans         &trans                       
+                                           &trans         &trans         &trans                   &kp C_STOP   &kp C_PLAY     &kp C_MUTE                       
             >;
         };
         
