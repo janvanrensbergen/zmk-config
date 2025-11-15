@@ -1,5 +1,9 @@
 #include "skeletyl.dtsi"
 
+&default_transform { // Offset of 5 because the left side has 5 columns
+    col-offset = <5>;
+};
+
 &kscan0 {
     col-gpios
     = <&pro_micro 26 (GPIO_ACTIVE_HIGH)> 
