@@ -1,8 +1,1 @@
 #include "skeletyl.dtsi"
-
-&kscan0 {
-    col-gpios
-        = <&pro_micro 26 (GPIO_ACTIVE_HIGH)>
-        
-        ;
-};
