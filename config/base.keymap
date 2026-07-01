@@ -34,7 +34,7 @@
             display-name = "Navigation";
             bindings = <
                 &bootloader  &trans        &trans         &trans         &trans                   &kp U_REDO   &kp U_PASTE    &kp U_COPY    &kp U_CUT      &kp U_UNDO      
-                &sys_reset   &trans        &bt BT_CLR     &out OUT_TOG   &trans                   &caps_word   &kp LEFT       &kp DOWN      &kp UP         &kp RIGHT         
+                &sys_reset   &trans        &trans         &trans         &trans                   &caps_word   &kp LEFT       &kp DOWN      &kp UP         &kp RIGHT         
                 &none        &none         &none          &none          &none                    &kp INS      &kp HOME       &kp PG_DN     &kp PG_UP      &kp END    
                                            &trans         &trans         &trans                   &trans       &trans         &trans                       
             >;
